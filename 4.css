@@ -1,0 +1,42 @@
+.wlj {color: red; text-align: center;}
+body {margin: 0cm 0cm 0cm 0cm;}
+a { color: #000; text-decoration: none; }
+a:hover { color: red; }
+
+/*
+#menu ul li a span{visibility:hidden}
+a:hover span{visibility:visible}
+*/
+#menu {font-size: 12px; position: relative; z-index: 100;}
+#menu ul li {position: relative;}
+#menu ul ul {visibility: hidden; position: absolute;}
+#menu ul li:hover ul,
+#menu ul a:hover ul{visibility: visible;}
+/*#menu ul ul{}*/
+#menu ul ul li {clear: both;}
+#menu ul ul li a:hover{border: 0; background: #f2cdb0; border-bottom: 1px solid #00f;}
+
+
+#menu { width:580px; height:28px; margin:0 auto; border-bottom:1px solid #E10001;}
+#menu ul { list-style: none; margin: 0px; padding: 0px; }
+#menu ul li { float:left; margin-left:2px;}
+#menu ul li a {
+display:block;
+width:87px;
+height:28px;
+line-height:28px;
+edui-filter-align-center 
+font-size:14px;
+background-color: #00FFFF;
+}
+#menu ul li a:hover {
+color: #FFFFFF;
+background-color: #999933;
+}
+#menu ul li a #current {
+font-weight:bold;
+color:#fff;
+background-color: #000000;
+background-repeat: no-repeat;
+background-position: 0 0;
+}
